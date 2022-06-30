@@ -1,0 +1,89 @@
+.header {
+  height: 70px;
+  width: 100%;
+  min-width: 450px;
+  background-color: #efefef;
+  position: fixed;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+
+  nav {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .header__menu {
+      margin-left: 10%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+
+      .header__menu__block{
+        display: flex;
+      }
+
+      .header__menu__item {
+        div {
+          margin-right: 40px;
+          font-size: 25px;
+          font-weight: 600;
+          color: black;
+          transition: 0.1s;
+        }
+
+        div:hover {
+          color: #15a5ed;
+        }
+      }
+    }
+  }
+
+  .burgerButton {
+    width: 30px;
+    height: 20px;
+    position: absolute;
+    left: 300px;
+    cursor: pointer;
+
+    & span {
+      position: absolute;
+      top: 9px;
+      width: 30px;
+      background-color: black;
+      height: 2px;
+    }
+  }
+
+  .burgerButton:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 30px;
+    background-color: black;
+    height: 2px;
+  }
+
+  .burgerButton:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    background-color: black;
+    height: 2px;
+  }
+
+  .header__basket{
+    display: flex;
+    img{
+      height: 50px;
+      width: 50px;
+      margin-right: 20px;
+      cursor: pointer;
+    }
+  }
+}

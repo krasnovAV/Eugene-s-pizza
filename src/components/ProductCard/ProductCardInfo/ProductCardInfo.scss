@@ -1,0 +1,60 @@
+.cardInfo {
+  width: 100%;
+  height: 550px;
+  margin: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  img {
+    width: 280px;
+    height: 280px;
+  }
+
+  .cardInfo__title {
+    display: flex;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .cardInfo__composition {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0 5px;
+    margin-bottom: 15px;
+  }
+
+  .cardInfo__price {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+  }
+
+  .cardInfo__footer {
+    width: 100%;
+    display: flex;
+    border-top: 1px solid lightgrey;
+    padding: 5px;
+    height: 50px;
+
+    .cardInfo__btn {
+      white-space: nowrap;
+      background-color: #fff;
+      height: 40px;
+      width: 100%;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 5px;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c7c7c7;
+      }
+    }
+  }
+}

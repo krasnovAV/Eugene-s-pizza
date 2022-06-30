@@ -1,0 +1,260 @@
+{
+  "pizza": [
+    {
+      "id": 1,
+      "type": "pizza",
+      "title": "Чикен Сладкий Чили",
+      "image": "https://tashirpizza.ru/images/products/334-825.jpg",
+      "price": {
+        "small": 350,
+        "medium": 600,
+        "large": 900
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо",
+        "Сыр Моцарелла",
+        "Томатный соус"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "pizza",
+      "title": "EASY PEASY огуречный расколбас",
+      "image": "https://tashirpizza.ru/images/products/39-1032.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "pizza",
+      "title": "EASY PEASY чикен а-ля хрен",
+      "image": "https://menu2go.ru/images/food/69/69_20210405142623_9074.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Соус",
+        "Карбонара"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "pizza",
+      "title": "4 сезона",
+      "image": "https://tashirpizza.ru/images/products/38-983.jpg",
+      "price": {
+        "small": 400,
+        "medium": 800,
+        "large": 1000
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Бекон",
+        "Ветчина",
+        "Грибы",
+        "Курица",
+        "Лук",
+        "Маслины",
+        "Огурцы маринованные"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "pizza",
+      "title": "Eugene's pizza",
+      "image": "https://tashirpizza.ru/images/products/334-825.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "pizza",
+      "title": "EASY PEASY ",
+      "image": "https://tashirpizza.ru/images/products/334-825.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "pizza",
+      "title": "Пицца Синица",
+      "image": "https://tashirpizza.ru/images/products/334-825.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "pizza",
+      "title": "EASY PEASY огуречный расколбас",
+      "image": "https://tashirpizza.ru/images/products/334-825.jpg",
+      "price": {
+        "small": 300,
+        "medium": 550,
+        "large": 800
+      },
+      "size": {
+        "small": "20 см",
+        "medium": "28 см",
+        "large": "33 см"
+      },
+      "components": [
+        "Курица",
+        "Лук",
+        "Перец Халапеньо"
+      ]
+    }
+  ],
+  "sushi": [
+    {
+      "id": 9,
+      "type": "sushi",
+      "title": "Филадельфия кранч",
+      "image": "https://sushi-like92.ru/wp-content/uploads/2020/08/%D0%A4%D0%B8%D0%BB%D0%B0%D0%B4%D0%B5%D0%BB%D1%8C%D1%84%D0%B8%D1%8F-%D0%B3%D1%80%D1%83%D1%88%D0%B0.jpg",
+      "price": 250,
+      "size": "200 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+    },
+    {
+      "id": 10,
+      "type": "sushi",
+      "title": "Тигр мама",
+      "image": "https://eda.ru/img/eda/c620x415/s1.eda.ru/StaticContent/Photos/160812092111/160819214540/p_O.jpg",
+      "price": 200,
+      "size": "210 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+
+    },
+    {
+      "id": 11,
+      "type": "sushi",
+      "title": "Суши сет",
+      "image": "https://www.xarakiri.ru/upload/iblock/495/495cf0ac1e1f54126ba00c66d6e2092c.jpg",
+      "price": 1000,
+      "size": "600 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+
+    },
+    {
+      "id": 12,
+      "type": "sushi",
+      "title": "Филадельфия кранч сет",
+      "image": "https://www.xarakiri.ru/upload/iblock/85a/85a5eb4ccc739df35b5f15a86ddcd933.jpg",
+      "price": 1020,
+      "size": "1000 г",
+      "components": ["Сливочный сыр", "семга татаки с тростниковым сахаром", "соус у"]
+    },
+    {
+      "id": 13,
+      "type": "sushi",
+      "title": "Суши сет",
+      "image": "https://суши-маке.рф/storage/120522/conversions/7e9d9af8-a70b-41d1-b35f-230c0746f4d7-medium.jpg",
+      "price": 900,
+      "size": "820 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+    },
+    {
+      "id": 14,
+      "type": "sushi",
+      "title": "Суши сет",
+      "image": "https://суши-маке.рф/storage/120522/conversions/7e9d9af8-a70b-41d1-b35f-230c0746f4d7-medium.jpg",
+      "price": 900,
+      "size": "820 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+    },
+    {
+      "id": 15,
+      "type": "sushi",
+      "title": "Суши сет",
+      "image": "https://суши-маке.рф/storage/120522/conversions/7e9d9af8-a70b-41d1-b35f-230c0746f4d7-medium.jpg",
+      "price": 900,
+      "size": "820 г",
+      "components": ["Семга", "рис", "сыр", "креметто", "соус унаги", "креветка", "авокадо"]
+    }
+  ],
+  "snacks": [
+  ],
+  "auth": [
+    {
+      "id": 1,
+      "email": "admin@m.ru",
+      "password": "qwerty"
+    },
+    {
+      "id": 2,
+      "email": "user@m.ru",
+      "password": "12345"
+    }
+  ]
+}

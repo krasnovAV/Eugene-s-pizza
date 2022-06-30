@@ -1,26 +1,37 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, {Suspense, lazy} from 'react';
+import "./App.scss"
+import 'antd/dist/antd.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+// библиотека для медиазапросов на изменение размера экрана
+import {useMediaQuery} from 'react-responsive'
+import {Header} from "./components/Header";
+import {Route, Routes} from "react-router-dom";
+import SushiPage from "./Pages/SushiPage";
 
-export default App;
+
+
+ const PizzaPage = lazy(() => import('./Pages/PizzaPage'));
+
+export const App = () => {
+    const isBigScreen = useMediaQuery({query: '(min-width: 900px)'})
+
+
+    return (
+        <div className="app">
+            <Header isBigScreen={isBigScreen}/>
+            <main>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Routes>
+                        <Route path="/" element={"Home"}/>
+                        <Route path="pizza" element={<PizzaPage/>}/>
+                        <Route path="sushi" element={<SushiPage/>}/>
+                        <Route path="snacks" element={"snacks"}/>
+                        <Route path="login" element={"login"}/>
+                        <Route path="*" element={"404"}/>
+                    </Routes>
+                </Suspense>
+            </main>
+        </div>
+    );
+};
+
