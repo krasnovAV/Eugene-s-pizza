@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/Eugene-s-pizza/static/css/main.03fed2ea.css",
-    "main.js": "/Eugene-s-pizza/static/js/main.90651710.js",
+    "main.js": "/Eugene-s-pizza/static/js/main.fcce1a61.js",
     "static/css/172.8a4030b1.chunk.css": "/Eugene-s-pizza/static/css/172.8a4030b1.chunk.css",
     "static/js/172.b5e3925d.chunk.js": "/Eugene-s-pizza/static/js/172.b5e3925d.chunk.js",
     "static/media/pizza_icon.png": "/Eugene-s-pizza/static/media/pizza_icon.cfba89574b7eb52d44fa.png",
     "static/media/basket.jpg": "/Eugene-s-pizza/static/media/basket.7be72347b6eaf1bdcb00.jpg",
     "index.html": "/Eugene-s-pizza/index.html",
     "main.03fed2ea.css.map": "/Eugene-s-pizza/static/css/main.03fed2ea.css.map",
-    "main.90651710.js.map": "/Eugene-s-pizza/static/js/main.90651710.js.map",
+    "main.fcce1a61.js.map": "/Eugene-s-pizza/static/js/main.fcce1a61.js.map",
     "172.8a4030b1.chunk.css.map": "/Eugene-s-pizza/static/css/172.8a4030b1.chunk.css.map",
     "172.b5e3925d.chunk.js.map": "/Eugene-s-pizza/static/js/172.b5e3925d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.03fed2ea.css",
-    "static/js/main.90651710.js"
+    "static/js/main.fcce1a61.js"
   ]
 }
